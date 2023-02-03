@@ -1,10 +1,10 @@
 # Brute-force
-This repository contains scripts that serve to automate DNS lookup processes, reverse-DNS and lookup for subdomains. The aim is to make life easier for pentesters.
+Este repositório contém scripts que servem para automatizar os processos de pesquisa de DNS, DNS reverso e pesquisa de subdomínios. O objetivo é facilitar a vida dos pentesters.
 
-**DNS-reverse**: To use this code, type: _./dnsreverse.txt 200.221.2._
-This script will search for names on all IPs within the IP range starting at 200.221.2 and will return the entire result on the screen.
+**DNS-reverso**: Para usar este código, digite: _./dnsreverse.txt 200.221.2._
+Este script buscará nomes em todos os IPs dentro da faixa de IP começando em 200.221.2 e retornará o resultado completo na tela.
 
-**Subdomains lookup**: To use this script, type: _./subdomains.sh_ _site.com.br_
-it is useful to point out that sub-domains.txt is a wordlist file, which can be downloaded from the internet or created by you. You can use any other wordlist.
+**Busca por subdomínios**: Para usar esse script, digite: _./subdomains.sh_ _site.com.br_
+É útil ressaltar que sub-domains.txt é um arquivo de lista de palavras (wordlist), que pode ser baixado da internet ou criado por você. Você pode usar qualquer outra lista de palavras.
 
-**Zone transfer**: This script will query the NS of the specified domain; after that it will force the transfer on every NS found. To run the script, type _./zone-transfer.sh _www.site.com.br__
+**Transferência de zona**: Este script consultará o NS do domínio especificado; depois disso, forçará a transferência em todos os NS encontrados. Para executar o script, digite: _./zone-transfer.sh _www.site.com.br__
